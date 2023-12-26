@@ -1,2 +1,1 @@
-export * from './GeneralLayout';
-export * from './colors';
+export * from './CardStyles';
