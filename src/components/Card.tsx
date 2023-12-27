@@ -1,12 +1,13 @@
 import { CardLayout } from "@/styled-components"
 import { Image } from "./Image"
 import { CardModel } from "@/models"
+import { ChipType } from "."
 
 const Card = ({ image }: CardModel) => {
     return (
         <CardLayout>
             <Image src={image} />
-            <h1>hola munfo</h1>
+            <ChipType>Learning</ChipType>
         </CardLayout>
     )
 }
