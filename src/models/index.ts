@@ -1,1 +1,1 @@
-export * from './CardModel';
+export * from './Interfaces';
